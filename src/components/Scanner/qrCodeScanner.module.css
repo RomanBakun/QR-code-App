@@ -1,0 +1,38 @@
+
+body {
+    color: rgb(152, 255, 221);
+    background-color: rgb(10, 10, 10);
+}
+.text {
+    padding: 0;
+    margin: 0;
+}
+.scanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto;
+    padding: 15px;
+    max-width: 500px;
+    min-height: 600px;
+    border: 1px solid rgb(152, 255, 221);
+    border-radius: 10px;
+    font-size: 30px;
+    /* color: whitesmoke; */
+    background-color: rgb(16, 16, 16);
+}
+.window {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(152, 255, 221, 0.1);
+}
+.title {
+    width: 100%;
+    border: 1px solid rgba(152, 255, 221, 0.1);
+    border-radius: 10px;
+    background-color: rgb(26, 26, 26);
+}
+.title p {
+    padding: 10px 20px;
+}
