@@ -6,6 +6,7 @@ import style from './qrCodeGenerator.module.css'
 const QrCodeGenerator = () => {
     const [value, setValue] = useState(' ')
     const [result, setResult] = useState('')
+    const Taxa = 'Gerda'
     const onClickHandler = () => {
         const prevData = JSON.parse(localStorage.getItem(GENERATE_DATA) || '[]')
         localStorage.setItem(
